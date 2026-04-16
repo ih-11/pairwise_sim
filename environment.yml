@@ -1,0 +1,16 @@
+name: pairwise-sim
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - blast=2.17.0
+  - biopython>=1.83
+  - pandas>=2.2
+  - matplotlib>=3.8
+  - jupyterlab>=4.2
+  - notebook>=7.2
+  - ipykernel>=6.29
+  - pytest>=8.2
+  - pip
